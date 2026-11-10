@@ -9,7 +9,7 @@
 | source-jellyfin.png | [Jellyfin Project](https://github.com/jellyfin/jellyfin-ux/blob/master/logos/SVG/jellyfin-icon--color-on-dark.svg)，以 PNG 格式无视觉修改呈现，保留 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | source-fnos.png | [fnOS](https://www.fnnas.com/favicon.ico) |
 
-`one-take.gif` 来自 SunnyTV 1.1.22 正式包在 Android API35 模拟器内的原生录屏。选择可用的 0.5× 动画速度，以便展示海报展开、详情和返回焦点。所用片名、海报均为原创虚构演示素材，画面已柔化，不含用户片库。
+`one-take.mp4` 与 `one-take-poster.webp` 来自 SunnyTV 1.1.22 正式包在 Android API35 模拟器内的原生录屏。1920×1080、60fps、正常1×动画速度，全程无音轨，展示海报展开、详情与返回焦点；未生成插帧。所用片名、海报均为原创虚构演示素材，不含用户片库。历史 `one-take.gif` 保留原文件，当前README改为链接高清无声视频。
 
 `support-wechat.png` 由作者提供的原始微信收款码裁切，中心换为 SunnyTV 标志；原二维码与必要留白保留，修改前后已解码核对一致。仅供自愿支持作者。
 
