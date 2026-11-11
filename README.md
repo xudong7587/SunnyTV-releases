@@ -6,9 +6,11 @@
 
 让自己的片库，好看，也好用。SunnyTV 是适用于 Android TV、手机和平板的原生影音客户端：连接自己的媒体服务，在同一套界面浏览收藏、挑选影片、接着上次的进度看。
 
-**当前正式版：1.1.24** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
+**当前正式版：1.1.25** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
 
 [下载最新版 APK](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [官方网站](https://sunnytv.dunn.fun/) · [版本记录](https://github.com/xudong7587/SunnyTV-releases/releases) · [问题反馈](https://github.com/xudong7587/SunnyTV-releases/issues) · [请作者喝杯咖啡](#support)
+
+1.1.25 将「已添加源」统一为单层整行玻璃条和全条聚焦，保留独立编辑与移除；显示诊断明确区分界面分辨率和视频清晰度。电视系统仅提供 1080p 界面模式时，不影响已有的 4K 视频播放。
 
 ![SunnyTV 首页演示](assets/home.webp)
 
