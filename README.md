@@ -8,7 +8,7 @@
 
 **当前正式版：1.1.29** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
 
-[下载最新版 APK](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [官方网站](https://sunnytv.dunn.fun/) · [版本记录](https://github.com/xudong7587/SunnyTV-releases/releases) · [问题反馈](https://github.com/xudong7587/SunnyTV-releases/issues) · [请作者喝杯咖啡](#support)
+[下载最新版 APK](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [官方网站](https://dunn.fun/sunnytv/) · [版本记录](https://github.com/xudong7587/SunnyTV-releases/releases) · [问题反馈](https://github.com/xudong7587/SunnyTV-releases/issues) · [请作者喝杯咖啡](#support)
 
 1.1.29 /113 将首页「继续播放」横条放在「我的媒体库」下方，沿用原开关，有无 Banner 均可展示，最多展示 32 条近期可续播条目。上下换行改为先平滑滚动，再展开新行的焦点卡片，并保留连按、快速反向与返回焦点。
 
@@ -39,15 +39,15 @@ Banner 方向也已统一：手机竖屏时背景用竖图、前景方块与细�
 - **4 套完整图标**：圆润线条、主题双色、圆润实心、柔圆线条，每套 60 枚，贯穿导航、菜单与播放器。四套图标在外观设置中并排比较，播放预览使用统一大小的按钮；主题双色仅在聚焦时点亮主题色，离开焦点即恢复黑白色阶。 默认使用圆润实心，已有保存的主题选择继续保留。
 - **文字读着舒服**：手机扫码即可通过同一局域网上传 TTF、OTF、TTC；界面与字幕分别选择，也可从本地文件或 U 盘导入，按习惯调整大小、字幕描边与位置。
 
-高开销材质按设备能力与性能设置启用，不同设备的可用选项和效果可能不同。[在官网试试质感、蒙版与图标示意](https://sunnytv.dunn.fun/#personalization)。
+高开销材质按设备能力与性能设置启用，不同设备的可用选项和效果可能不同。[查看质感、蒙版与图标介绍](https://dunn.fun/sunnytv/#personalization)。
 
 ## 从海报到详情，一镜到底
 
 点开的海报自然展开，详情顺势接入；返回时回到原来的卡片与焦点。打开 **设置 → 性能 → 页面转场**，选择「一镜到底 / 无缝转场」，五档动画速度独立设置。
 
-[![SunnyTV 1.1.22 原生一镜到底视频](assets/one-take-poster.webp)](https://sunnytv.dunn.fun/#motion)
+[![SunnyTV 1.1.22 原生一镜到底视频](assets/one-take-poster.webp)](https://dunn.fun/sunnytv/#motion)
 
-[观看 1080p 无声视频](https://sunnytv.dunn.fun/#motion) · [下载 MP4](assets/one-take.mp4)
+[查看一镜到底说明](https://dunn.fun/sunnytv/#motion) · [下载 MP4](assets/one-take.mp4)
 
 1.1.22 正式包在 Android 模拟器内以正常 1× 动画速度原生录制，1080p、无配乐，使用清晰的原创虚构片库素材。低负载模式回退淡入淡出，关闭动画或减少动态效果时停用转场；实际流畅度依设备而异。
 
@@ -86,7 +86,7 @@ SunnyTV 不提供影视资源，需要使用自己的服务器、账号及有权
 
 遇到问题可以到 [Issues](https://github.com/xudong7587/SunnyTV-releases/issues) 描述应用版本、设备型号、Android 版本及复现步骤。截图和日志请先隐藏服务器地址、账号、令牌及私人媒体信息。
 
-本仓库用于发布安装包、更新说明与收集反馈。更多展示请查看[官方网站](https://sunnytv.dunn.fun/)。
+本仓库用于发布安装包、更新说明与收集反馈。更多展示请查看[官方网站](https://dunn.fun/sunnytv/)。
 
 <a id="support"></a>
 
