@@ -1,0 +1,22 @@
+SunnyTV Android application distribution terms
+Copyright (C) 2026 SunnyTV contributors, where applicable.
+
+For SunnyTV 1.2.3 and subsequent versions that identify these terms, the
+copyright holders permit users to install and run the original SunnyTV
+application as supplied in object-code form. No license to the corresponding
+original application source code is granted by these terms.
+
+Users may modify or replace the LGPL-covered libraries, recombine them with
+the distributed application object code, and install and run the resulting
+application. These terms do not restrict modification of the LGPL-covered
+portions or reverse engineering for debugging those modifications.
+
+Independent components and assets remain under their own terms. The SunnyTV
+video adapter is offered under Apache License 2.0. The bundled FFmpeg
+libraries are licensed under GNU LGPL version 3 or later. See the packaged
+licenses and the version's source and relinking materials in
+https://github.com/xudong7587/SunnyTV-releases.
+
+Versions published under GPL-3.0-only retain that license. These terms make
+no change to rights already granted for earlier versions or to third-party
+licenses.
