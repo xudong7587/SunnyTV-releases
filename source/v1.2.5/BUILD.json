@@ -1,0 +1,10 @@
+{
+  "version": "1.2.5",
+  "applicationId": "io.github.xudong7587.sunnytv.debug",
+  "versionCode": 119,
+  "bytes": 44768559,
+  "sha256": "a8937a6d6cc29bffa55891876cc6ffa629dbf0e374bf2f32942c996775fec27f",
+  "ffmpegSource": "../v1.2.3/FFmpeg-n6.0.1-source.tar.gz",
+  "decoderSource": "../v1.2.3/SunnyTV-v1.2.3-decoder-source.tar.gz",
+  "unchangedPinnedFfmpegLibraries": 16
+}

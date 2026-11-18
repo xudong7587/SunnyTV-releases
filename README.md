@@ -6,13 +6,15 @@
 
 让自己的片库，好看，也好用。SunnyTV 是适用于 Android TV、手机和平板的原生影音客户端：连接自己的媒体服务，在同一套界面浏览收藏、挑选影片、接着上次的进度看。
 
-**当前正式版：1.1.29** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
+**当前正式版：1.2.5** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
 
-[下载最新版 APK](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [官方网站](https://dunn.fun/sunnytv/) · [版本记录](https://github.com/xudong7587/SunnyTV-releases/releases) · [问题反馈](https://github.com/xudong7587/SunnyTV-releases/issues) · [请作者喝杯咖啡](#support)
+[下载最新版 APK](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [官方网站](https://sunnytv.dunn.fun/) · [版本记录](https://github.com/xudong7587/SunnyTV-releases/releases) · [问题反馈](https://github.com/xudong7587/SunnyTV-releases/issues) · [请作者喝杯咖啡](#support)
 
-1.1.29 /113 将首页「继续播放」横条放在「我的媒体库」下方，沿用原开关，有无 Banner 均可展示，最多展示 32 条近期可续播条目。上下换行改为先平滑滚动，再展开新行的焦点卡片，并保留连按、快速反向与返回焦点。
+1.2.5 /119 增加官方服务器版本查询，服务器不可用时自动回退 GitHub，也可手动固定使用 GitHub。更新页提供官方服务器、GitHub、官网浏览器入口和夸克永久分享；下载安装继续核对哈希、包名、版本和原安装签名。
 
-Banner 方向也已统一：手机竖屏时背景用竖图、前景方块与细条用横图；手机横屏和 TV 时背景用横图、方块与细条用竖图。缺少对应方向图片时显示背景或占位，不用反向素材替代。[查看 1.1.29 完整发行说明](https://github.com/xudong7587/SunnyTV-releases/releases/tag/v1.1.29)。正式版沿用已验收的原签名包，已安装 `SunnyTV-v1.1.29-4.apk` 的用户无需重复升级。
+多季详情完整显示每一季，超过十季也能直接选择；选集显示 S/E 季集号。Banner 根据实际显示区域与图片比例请求清晰图片，保留正常槽位横竖方向、优先级和季集归属，仅对应方向缺失或加载失败时允许另一方向裁切补位；补充服务端已有的背景、父级缩略图及缺方向时的最新单集候选。原图清晰度和缺图情况仍取决于自己的媒体服务。[查看 1.2.5 完整发行说明](https://github.com/xudong7587/SunnyTV-releases/releases/tag/v1.2.5)。
+
+[官网下载](https://sunnytv.dunn.fun/) · [夸克永久分享](https://pan.quark.cn/s/cee02cdf73fe)
 
 1.1.27 修复首页快速返回时的焦点恢复，背景优先使用合适的横图，并增大媒体格式标签和常用播放图标。符合条件的原画渐进式直放剧集，会在当前集片尾且缓冲、内存条件允许时，提前准备下一集约 5 秒的编码媒体内容，减少换集等待。预缓冲取决于来源、网络和设备支持，失败时仍按正常流程播放，不保证无缝切集。
 
@@ -39,15 +41,15 @@ Banner 方向也已统一：手机竖屏时背景用竖图、前景方块与细�
 - **4 套完整图标**：圆润线条、主题双色、圆润实心、柔圆线条，每套 60 枚，贯穿导航、菜单与播放器。四套图标在外观设置中并排比较，播放预览使用统一大小的按钮；主题双色仅在聚焦时点亮主题色，离开焦点即恢复黑白色阶。 默认使用圆润实心，已有保存的主题选择继续保留。
 - **文字读着舒服**：手机扫码即可通过同一局域网上传 TTF、OTF、TTC；界面与字幕分别选择，也可从本地文件或 U 盘导入，按习惯调整大小、字幕描边与位置。
 
-高开销材质按设备能力与性能设置启用，不同设备的可用选项和效果可能不同。[查看质感、蒙版与图标介绍](https://dunn.fun/sunnytv/#personalization)。
+高开销材质按设备能力与性能设置启用，不同设备的可用选项和效果可能不同。[查看质感、蒙版与图标介绍](https://sunnytv.dunn.fun/#personalization)。
 
 ## 从海报到详情，一镜到底
 
 点开的海报自然展开，详情顺势接入；返回时回到原来的卡片与焦点。打开 **设置 → 性能 → 页面转场**，选择「一镜到底 / 无缝转场」，五档动画速度独立设置。
 
-[![SunnyTV 1.1.22 原生一镜到底视频](assets/one-take-poster.webp)](https://dunn.fun/sunnytv/#motion)
+[![SunnyTV 1.1.22 原生一镜到底视频](assets/one-take-poster.webp)](https://sunnytv.dunn.fun/#motion)
 
-[查看一镜到底说明](https://dunn.fun/sunnytv/#motion) · [下载 MP4](assets/one-take.mp4)
+[查看一镜到底说明](https://sunnytv.dunn.fun/#motion) · [下载 MP4](assets/one-take.mp4)
 
 1.1.22 正式包在 Android 模拟器内以正常 1× 动画速度原生录制，1080p、无配乐，使用清晰的原创虚构片库素材。低负载模式回退淡入淡出，关闭动画或减少动态效果时停用转场；实际流畅度依设备而异。
 
@@ -65,6 +67,8 @@ Banner 方向也已统一：手机竖屏时背景用竖图、前景方块与细�
 
 ## 安装与升级
 
+应用内默认从官方服务器检查最新版本，失败时回退 GitHub；也可手动切换查询渠道。官方服务器、GitHub 与夸克均提供原签名 APK，安装仍由 Android 系统确认。个人开发者服务器带宽有限，下载可能较慢，可切换其他渠道。
+
 1. 使用 Android 7.0 或更高版本的电视、盒子、手机或平板。
 2. 打开[最新版下载页](https://github.com/xudong7587/SunnyTV-releases/releases/latest)，在 Assets 中下载 `.apk` 文件。
 3. 按系统提示允许该安装来源，安装后添加自己的媒体服务或频道列表。
@@ -75,7 +79,7 @@ Banner 方向也已统一：手机竖屏时背景用竖图、前景方块与细�
 
 ## 解码组件源码与许可
 
-SunnyTV 1.2.4 采用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.2.4 解码器源码、许可和 FFmpeg 换库说明](source/v1.2.4/README.md)。
+SunnyTV 1.2.5 采用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.2.5 解码器源码、许可和 FFmpeg 换库说明](source/v1.2.5/README.md)。
 
 [1.2.2 解码组件源码与许可](source/v1.2.2/README.md)仍可查阅，其公开资料覆盖解码组件。
 
@@ -86,7 +90,7 @@ SunnyTV 不提供影视资源，需要使用自己的服务器、账号及有权
 
 遇到问题可以到 [Issues](https://github.com/xudong7587/SunnyTV-releases/issues) 描述应用版本、设备型号、Android 版本及复现步骤。截图和日志请先隐藏服务器地址、账号、令牌及私人媒体信息。
 
-本仓库用于发布安装包、更新说明与收集反馈。更多展示请查看[官方网站](https://dunn.fun/sunnytv/)。
+本仓库用于发布安装包、更新说明与收集反馈。更多展示请查看[官方网站](https://sunnytv.dunn.fun/)。
 
 <a id="support"></a>
 
