@@ -75,7 +75,7 @@ Banner 方向也已统一：手机竖屏时背景用竖图、前景方块与细�
 
 ## 解码组件源码与许可
 
-SunnyTV 1.2.3 采用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.2.3 解码器源码、许可和 FFmpeg 换库说明](source/v1.2.3/README.md)。
+SunnyTV 1.2.4 采用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.2.4 解码器源码、许可和 FFmpeg 换库说明](source/v1.2.4/README.md)。
 
 [1.2.2 解码组件源码与许可](source/v1.2.2/README.md)仍可查阅，其公开资料覆盖解码组件。
 
