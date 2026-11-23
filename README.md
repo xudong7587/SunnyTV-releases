@@ -1,18 +1,16 @@
-<p align="center"><img src="assets/sunnytv-logo.svg" width="104" alt="SunnyTV"></p>
+<p align="center"><img src="assets/sunnytv-logo.svg" width="104" alt="Sunny"></p>
 
-# SunnyTV
+# Sunny
 
 **精致入眼，流畅入戏。**
 
-让自己的片库，好看，也好用。SunnyTV 是适用于 Android TV、手机和平板的原生影音客户端：连接自己的媒体服务，在同一套界面浏览收藏、挑选影片、接着上次的进度看。
+让自己的片库，好看，也好用。Sunny 是适用于 Android TV、手机和平板的原生影音客户端：连接自己的媒体服务，在同一套界面浏览收藏、挑选影片、接着上次的进度看。
 
-**当前版本：1.2.7** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
+**当前版本：1.2.8** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
 
 [下载最新版 APK](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [官方网站](https://sunnytv.dunn.fun/) · [版本记录](https://github.com/xudong7587/SunnyTV-releases/releases) · [问题反馈](https://github.com/xudong7587/SunnyTV-releases/issues) · [请作者喝杯咖啡](#support)
 
-1.2.7 /121 修复 Banner 切换时的紫红色闪屏。新图加载时保留上一张背景和最近一次成功的 Monet 取色，图像与蒙版色随后平滑过渡。
-
-连续切换同一剧集时，播放器沿用上一集的画面裁切或适应，并按可用轨道匹配手动选择的字幕。「关闭字幕」也会记住。续播以总时长的 95% 判断是否接近播完，短剧的有效进度可以精确恢复。[查看 1.2.7 发行说明](https://github.com/xudong7587/SunnyTV-releases/releases/tag/v1.2.7)。
+Sunny 1.2.8 /122 统一应用和官网的显示名称。直接覆盖安装即可保留已有的媒体来源、设置和播放进度。
 
 [官网下载](https://sunnytv.dunn.fun/) · [夸克永久分享](https://pan.quark.cn/s/cee02cdf73fe)
 
@@ -20,11 +18,11 @@
 
 1.1.26 在首页 Banner 和播放资源卡片展示媒体格式标签。标签支持预载和五档大小实时预览。可为媒体单独设置默认字幕，背景蒙版也可选择跟随动态取色。
 
-![SunnyTV 首页演示](assets/home.webp)
+![Sunny 首页演示](assets/home.webp)
 
 ## 接上媒体库，好内容就在眼前
 
-| 接入方式 | 在 SunnyTV 中体验 |
+| 接入方式 | 在 Sunny 中体验 |
 | --- | --- |
 | <img src="assets/source-ugreen.png" width="32" alt="绿联云"> **绿联云 · 官方合作** | 连接绿联影视中心，原生浏览电影、剧集与详情，选好就播放。 |
 | <img src="assets/source-emby.png" width="32" alt="Emby"> **Emby** | 沿用服务端的海报、媒体信息与观看进度，继续熟悉的追剧节奏。 |
@@ -48,11 +46,11 @@
 
 点开的海报自然展开，详情顺势接入；返回时回到原来的卡片与焦点。打开 **设置 → 性能 → 页面转场**，选择「一镜到底 / 无缝转场」，五档动画速度独立设置。
 
-[![SunnyTV 1.1.22 原生一镜到底视频](assets/one-take-poster.webp)](https://sunnytv.dunn.fun/#motion)
+[![Sunny 原生影片详情](assets/motion-preview.webp)](https://sunnytv.dunn.fun/#motion)
 
 [查看一镜到底说明](https://sunnytv.dunn.fun/#motion) · [下载 MP4](assets/one-take.mp4)
 
-1.1.22 正式包在 Android 模拟器内以正常 1× 动画速度原生录制，1080p、无配乐，使用清晰的原创虚构片库素材。低负载模式回退淡入淡出，关闭动画或减少动态效果时停用转场；实际流畅度依设备而异。
+上图为 Sunny 的原生详情页。历史录屏来自 1.1.22 正式版，在 Android 模拟器内以正常 1× 动画速度录制，1080p、无配乐，使用清晰的原创虚构片库素材。低负载模式回退淡入淡出，关闭动画或减少动态效果时停用转场；实际流畅度依设备而异。
 
 ## 原生播放，操作顺手
 
@@ -80,14 +78,14 @@
 
 ## 解码组件源码与许可
 
-SunnyTV 1.2.7 沿用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.2.7 解码器源码、许可和 FFmpeg 换库说明](source/v1.2.7/README.md)。
+Sunny 沿用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.2.8 解码器源码、许可和 FFmpeg 换库说明](source/v1.2.8/README.md)。
 
 [1.2.2 解码组件源码与许可](source/v1.2.2/README.md)仍可查阅，其公开资料覆盖解码组件。
 
 
 ## 使用与反馈
 
-SunnyTV 不提供影视资源，需要使用自己的服务器、账号及有权访问的媒体。不同来源的收藏、进度和播放能力以对应服务支持情况为准。
+Sunny 不提供影视资源，需要使用自己的服务器、账号及有权访问的媒体。不同来源的收藏、进度和播放能力以对应服务支持情况为准。
 
 遇到问题可以到 [Issues](https://github.com/xudong7587/SunnyTV-releases/issues) 描述应用版本、设备型号、Android 版本及复现步骤。截图和日志请先隐藏服务器地址、账号、令牌及私人媒体信息。
 
@@ -97,7 +95,7 @@ SunnyTV 不提供影视资源，需要使用自己的服务器、账号及有权
 
 ## 请作者喝杯咖啡
 
-如果 SunnyTV 让你的看片时光更舒服，欢迎请作者喝杯咖啡，支持持续打磨。感谢每一份心意。
+如果 Sunny 让你的看片时光更舒服，欢迎请作者喝杯咖啡，支持持续打磨。感谢每一份心意。
 
-<p align="center"><img src="assets/support-wechat.png" width="320" alt="微信扫码支持 SunnyTV 作者"></p>
+<p align="center"><img src="assets/support-wechat.png" width="320" alt="微信扫码支持 Sunny 作者"></p>
 <p align="center">微信扫一扫 · 自愿支持，量力而行</p>

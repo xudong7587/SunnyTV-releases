@@ -1,5 +1,12 @@
 # 版本记录
 
+## Sunny 1.2.8 /122
+
+- Android 桌面、应用内界面与官网统一使用 Sunny。
+- 可直接覆盖安装旧版，保留媒体来源、偏好设置和播放进度。
+
+[下载最新版](https://github.com/xudong7587/SunnyTV-releases/releases/latest)
+
 ## 1.2.7 /121
 
 - Banner 在新背景加载期间保留上一张图和最近一次成功的 Monet 取色。新图到位后平滑过渡，蒙版色随新取色渐变，修复切换时的紫红色闪屏。
