@@ -1,5 +1,12 @@
 # 版本记录
 
+## Sunny 1.3.0 /124
+
+- 维护版本，延续按设备档位调整弹出卡片和外接显示器适配。
+- 沿用现有安装包身份和签名。可从 1.2.9 覆盖升级，保留媒体来源、偏好和播放记录。
+
+[发行说明](https://github.com/xudong7587/SunnyTV-releases/releases/tag/v1.3.0) · [下载最新版](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [解码组件源码与许可](source/v1.3.0/README.md)
+
 ## Sunny 1.2.9 /123
 
 - 设置、片源、字幕、音轨和播放选项按当前窗口的可用宽高和界面缩放布局。手机横竖屏分别留边，较长的选项列表可滚动。
