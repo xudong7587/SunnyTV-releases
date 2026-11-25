@@ -6,11 +6,11 @@
 
 让自己的片库，好看，也好用。Sunny 是适用于 Android TV、手机和平板的原生影音客户端：连接自己的媒体服务，在同一套界面浏览收藏、挑选影片、接着上次的进度看。
 
-**当前版本：1.3.0** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
+**当前版本：1.3.1** · 16 种质感 · 4 套图标 · 自由蒙版 · 一镜到底
 
 [下载最新版 APK](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [官方网站](https://sunnytv.dunn.fun/) · [版本记录](https://github.com/xudong7587/SunnyTV-releases/releases) · [问题反馈](https://github.com/xudong7587/SunnyTV-releases/issues) · [请作者喝杯咖啡](#support)
 
-Sunny 1.3.0 /124 是维护版本，延续按设备档位调整弹出卡片和外接显示器适配。从 1.2.9 直接覆盖安装，继续使用已有的媒体来源、设置和播放进度。
+手机连续播放剧集时，Sunny 1.3.1 会继承上一集手动滑动调节的亮度和音量。退出播放后恢复手机原有设置。本版也改善了剧集进度保存、媒体来源恢复、遥控器导航及应用内更新体验。
 
 [官网下载](https://sunnytv.dunn.fun/) · [夸克永久分享](https://pan.quark.cn/s/cee02cdf73fe)
 
@@ -78,7 +78,7 @@ Sunny 1.3.0 /124 是维护版本，延续按设备档位调整弹出卡片和外
 
 ## 解码组件源码与许可
 
-Sunny 沿用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.3.0 解码器源码、许可和 FFmpeg 换库说明](source/v1.3.0/README.md)。
+Sunny 沿用按公开接口重写的 Apache-2.0 视频软解适配。音视频共用 LGPL 3.0 或更新版本的 FFmpeg 库。Android 主程序以 APK 形式提供。[查看 1.3.1 解码器源码、许可和 FFmpeg 换库说明](source/v1.3.1/README.md)。
 
 [1.2.2 解码组件源码与许可](source/v1.2.2/README.md)仍可查阅，其公开资料覆盖解码组件。
 

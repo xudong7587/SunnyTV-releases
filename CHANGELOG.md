@@ -1,5 +1,13 @@
 # 版本记录
 
+## Sunny 1.3.1 /125
+
+- 手机连续播放剧集时，手动滑动调节的亮度和音量会延续到下一集，退出播放后恢复手机原有设置。
+- 改善续播和片尾自动换集时的进度保存。应用内检查更新超时后会提示重试。
+- 修复媒体来源读取异常时的恢复入口、设置二级菜单的遥控焦点，以及选择弹窗在屏幕阅读器中的选中提示。
+
+[发行说明](https://github.com/xudong7587/SunnyTV-releases/releases/tag/v1.3.1) · [下载最新版](https://github.com/xudong7587/SunnyTV-releases/releases/latest) · [解码组件源码与许可](source/v1.3.1/README.md)
+
 ## Sunny 1.3.0 /124
 
 - 维护版本，延续按设备档位调整弹出卡片和外接显示器适配。
